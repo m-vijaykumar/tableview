@@ -8,7 +8,12 @@
 import UIKit
 
 class DemoTableViewCell: UITableViewCell {
+    
 
+    @IBOutlet weak var lable: UIView!
+    
+    static let cellIdentifier = "DemoTableViewCell"
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

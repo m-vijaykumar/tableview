@@ -16,6 +16,12 @@
 		C05A44B72C87AA6900A1FF59 /* tableviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05A44B62C87AA6900A1FF59 /* tableviewTests.swift */; };
 		C05A44C12C87AA6900A1FF59 /* tableviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05A44C02C87AA6900A1FF59 /* tableviewUITests.swift */; };
 		C05A44C32C87AA6900A1FF59 /* tableviewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05A44C22C87AA6900A1FF59 /* tableviewUITestsLaunchTests.swift */; };
+		C05A44D12C87AE4F00A1FF59 /* DemoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C05A44D02C87AE4F00A1FF59 /* DemoTableViewCell.xib */; };
+		C05A44D22C87AE4F00A1FF59 /* DemoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05A44CF2C87AE4F00A1FF59 /* DemoTableViewCell.swift */; };
+		C05A44D42C87B52500A1FF59 /* TableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05A44D32C87B52500A1FF59 /* TableController.swift */; };
+		C05A44D62C87B5B100A1FF59 /* ProgramaticCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05A44D52C87B5B100A1FF59 /* ProgramaticCell.swift */; };
+		C05A44D92C88CAEB00A1FF59 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C05A44D82C88CAEB00A1FF59 /* CustomCell.xib */; };
+		C05A44DA2C88CAEB00A1FF59 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05A44D72C88CAEB00A1FF59 /* CustomCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,12 @@
 		C05A44BC2C87AA6900A1FF59 /* tableviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tableviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C05A44C02C87AA6900A1FF59 /* tableviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableviewUITests.swift; sourceTree = "<group>"; };
 		C05A44C22C87AA6900A1FF59 /* tableviewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableviewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C05A44CF2C87AE4F00A1FF59 /* DemoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTableViewCell.swift; sourceTree = "<group>"; };
+		C05A44D02C87AE4F00A1FF59 /* DemoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DemoTableViewCell.xib; sourceTree = "<group>"; };
+		C05A44D32C87B52500A1FF59 /* TableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableController.swift; sourceTree = "<group>"; };
+		C05A44D52C87B5B100A1FF59 /* ProgramaticCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramaticCell.swift; sourceTree = "<group>"; };
+		C05A44D72C88CAEB00A1FF59 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		C05A44D82C88CAEB00A1FF59 /* CustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +118,12 @@
 				C05A44A82C87AA6900A1FF59 /* Assets.xcassets */,
 				C05A44AA2C87AA6900A1FF59 /* LaunchScreen.storyboard */,
 				C05A44AD2C87AA6900A1FF59 /* Info.plist */,
+				C05A44CF2C87AE4F00A1FF59 /* DemoTableViewCell.swift */,
+				C05A44D02C87AE4F00A1FF59 /* DemoTableViewCell.xib */,
+				C05A44D32C87B52500A1FF59 /* TableController.swift */,
+				C05A44D52C87B5B100A1FF59 /* ProgramaticCell.swift */,
+				C05A44D72C88CAEB00A1FF59 /* CustomCell.swift */,
+				C05A44D82C88CAEB00A1FF59 /* CustomCell.xib */,
 			);
 			path = tableview;
 			sourceTree = "<group>";
@@ -231,8 +249,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C05A44D92C88CAEB00A1FF59 /* CustomCell.xib in Resources */,
 				C05A44A92C87AA6900A1FF59 /* Assets.xcassets in Resources */,
 				C05A44AC2C87AA6900A1FF59 /* Base in Resources */,
+				C05A44D12C87AE4F00A1FF59 /* DemoTableViewCell.xib in Resources */,
 				C05A44A72C87AA6800A1FF59 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,7 +279,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C05A44A42C87AA6800A1FF59 /* ViewController.swift in Sources */,
+				C05A44D62C87B5B100A1FF59 /* ProgramaticCell.swift in Sources */,
 				C05A44A02C87AA6800A1FF59 /* AppDelegate.swift in Sources */,
+				C05A44D22C87AE4F00A1FF59 /* DemoTableViewCell.swift in Sources */,
+				C05A44D42C87B52500A1FF59 /* TableController.swift in Sources */,
+				C05A44DA2C88CAEB00A1FF59 /* CustomCell.swift in Sources */,
 				C05A44A22C87AA6800A1FF59 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
